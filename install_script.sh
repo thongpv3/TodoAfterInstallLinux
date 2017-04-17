@@ -1,3 +1,7 @@
+
+#store current path
+current=$(pwd)
+
 #update && upgrade
 sudo apt update && sudo apt upgrade
 
@@ -22,3 +26,15 @@ git config --global user.email "thongpv87@gmail.com";
 #install atom
 sudo apt install atom
 apm install --packages-file files/packages-list.txt
+
+#install clion & IntelliJ
+cd /tmp;
+wget https://data.services.jetbrains.com/products/download?code=CL&platform=linux clion.tar.gz
+wget http://data.services.jetbrains.com/products/download?code=IIU&platform=linux idea.tar.gz
+cd /opt;
+tar -xzf /tmp/clion.tar.gz;
+tar -xzf /tmp/idea.tar.gz;
+echo "Clion and IntelliJ has been extracted into /opt, install it and remembered to install gitignore, markdown plugin, change font into FiraCode";
+
+cd $path;
+echo "Todo lists: " && cat program_to_install.txt;
