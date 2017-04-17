@@ -1,0 +1,11 @@
+#1: CLion     - https://www.jetbrains.com/clion/download
+  + Plugins: markdown, ignores
+#2: IntelliJ  - https://www.jetbrains.com/idea/download/
+  + Plugins: ignores
+#4: GNOME-shell-extensions
+  + Todo lists
+  + Caffein
+  + Dropdown terminal
+  + Media indicator
+  + Netspeed
+  + Clipboard
